@@ -1,0 +1,121 @@
+body {
+    background: url(food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1b4f68;
+    height: auto;
+}
+.button-add {
+    font-family: "Montserrat", sans-serif;
+    background-color: #3aa577;
+    color: #182b36;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button-add:hover{
+    background-color: #47b887;
+}
+.button-delete {
+    font-family: "Montserrat", sans-serif;
+    background: none;
+    border: none;
+    color: #d75712;
+    font-weight: 600;
+    cursor: pointer;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(158, 198, 205);
+    border-radius: 10px;
+    padding: 15px;
+    color: #18303d;
+}
+.App {
+    display: flex;
+    justify-content: space-around;
+}
+.whole-plan {
+    width: 70%;
+    height: 100vh;
+    margin-left: 10px;
+}
+.myInput {
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 30px;
+}
+textarea {
+    display: block;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+.selected{
+    background-color: #fad106;
+}
+.default{
+    background-color: #dceff7;
+}
+.field {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px; 
+}
+.head{
+    color: #ece5c4;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;    
+    font-weight: 550;
+    background-color: #2c4c5bcd;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px;
+}
+@media all and (max-width: 820px){
+    body{
+        background-position:center;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .head{
+        font-size: 18px;
+        margin-left: 7px;
+        font-weight: 400;
+        height: 60px;
+    }
+    .field{
+        font-size: 13px;
+    }
+    .button-add{
+        font-size: 15px;
+    }
+    .butto-delete{
+        font-size: 13px;
+    }
+
+
+}
+@media all and (max-width: 350px){
+    h1{
+        font-size: 20px;
+    }
+    .head{
+        height: 130px;
+    }
+    textarea{
+        margin-top: 10px;
+    }
+}
